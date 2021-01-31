@@ -16,7 +16,7 @@ const images = [
   },
 ];
 
-// ? Стандартное добавление разметки через createElement и append
+// ? Добавление разметки через createElement и append
 // const listOfimages = images.map(item => {
 //   const addImgTag = document.createElement('img'); // !создаем тег <img> на каждой итерации по массиву images
 //   addImgTag.src = item.url; // !создаем для тега <img> атрибут src и присваиваем значение из item.url - как результат итерации
@@ -24,9 +24,10 @@ const images = [
 //   addImgTag.classList.add('gallery-img'); // !добавил клас для тега, чтобы изменить его свойства через CSS
 //   const addLiTag = document.createElement('li'); // !создаем тег <li> на каждой итерации по массиву images
 //   addLiTag.classList.add('gallery-item'); // !добавил клас для тега, чтобы изменить его свойства через CSS
-//   addLiTag.append(addImgTag); // !вставляем результативный код тега <img> внутрь тега <li> на каждой итерации по массиву images
+//   addLiTag.append(addImgTag); // !вставляем результирующий код тега <img> внутрь тега <li> на каждой итерации по массиву images
 //   return addLiTag; // !записываем в переменную listOfimages результат выполнения кода, а именно тег <img> (с необходимыми атрибутами) внутрь тега <li>
-// }); // результат listOfimages - массив элементов со значениями
+// });
+// // console.log(listOfimages); // результат listOfimages - массив элементов со значениями
 
 // // console.log(listOfimages);
 // // !ищем ссылку на элемент galleryRef в HTML документе

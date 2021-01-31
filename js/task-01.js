@@ -1,4 +1,3 @@
-// Задание 1
 const mainCategoriesRef = document.querySelectorAll('ul#categories > li.item');
 const quantityOfmainCategories = `В списке ${mainCategoriesRef.length} категории.`;
 console.log(quantityOfmainCategories);
