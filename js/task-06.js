@@ -12,7 +12,7 @@ const onValidateInput = event => {
   //   если введенное значение в input больше или равно 6 символов,
   //   то єлементу input при потере фокуса добавляется CSS клас "valid",
   //   в противном случае добавляется CSS клас "invalid"
-  currentInputValueLength >= ckeckedLengthValue
+  currentInputValueLength == ckeckedLengthValue
     ? inputRef.setAttribute('class', 'valid')
     : inputRef.setAttribute('class', 'invalid');
 };
